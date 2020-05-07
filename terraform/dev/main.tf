@@ -5,7 +5,7 @@ provider "aws" {
 
 module "application-stack" {
   source  = "ptfe.servian-sg.gradeous.io/Vibrato/application-stack/aws"
-  version = "0.0.2"
+  version = "0.0.3"
   app_id  = var.app_id
   compute = var.compute
 }

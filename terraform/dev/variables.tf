@@ -8,3 +8,7 @@ variable "compute" {
     instance_type = string
   }))
 }
+
+variable "top-secret" {
+  default = ""
+}
